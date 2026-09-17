@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veoku — AI 视频翻译 · 配音 · 字幕工具</title>
+  <meta name="description" content="Veoku 是一站式 AI 视频处理平台，支持视频翻译、AI 配音、字幕提取与画面文字去除，助你快速触达全球观众。" />
+  <link rel="icon" href="https://veoku.com/favicon-new.ico" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1b1d21;
+      --muted: #5c626e;
+      --line: #e6e8ec;
+      --brand: #2f6bff;
+      --brand-fg: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14161a;
+        --fg: #f2f4f7;
+        --muted: #a2a9b6;
+        --line: #2a2e36;
+        --brand: #5b8cff;
+        --brand-fg: #0f1115;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 48px;
+    }
+    .logo {
+      display: block;
+      width: 72px;
+      height: 72px;
+      margin: 0 0 20px;
+      border-radius: 16px;
+      object-fit: contain;
+    }
+    h1 {
+      font-size: 40px;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+    }
+    .tagline {
+      color: var(--muted);
+      font-size: 17px;
+      margin: 0 0 32px;
+    }
+    h2 {
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 600;
+      margin: 40px 0 12px;
+    }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 16px; padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .cta {
+      display: inline-block;
+      margin: 8px 0 0;
+      padding: 13px 28px;
+      background: var(--brand);
+      color: var(--brand-fg);
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .cta:hover { opacity: 0.9; }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      padding-top: 24px;
+      margin-top: 48px;
+      border-top: 1px solid var(--line);
+    }
+    .links a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--line); }
+    .links a:hover { border-bottom-color: var(--fg); }
+    footer {
+      margin-top: 32px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <img class="logo" src="https://storage.eo.veoku.com/static/vk.png" alt="Veoku logo" width="72" height="72" />
+    <h1>Veoku</h1>
+    <p class="tagline">一站式 AI 视频处理平台</p>
+
+    <h2>产品简介</h2>
+    <p>
+      Veoku 面向内容创作者与出海团队，提供从视频翻译到成片输出的完整链路：
+      批量将视频翻译成 20+ 种语言，提供 1000+ 种 AI 配音音色，
+      并支持字幕提取、字幕编辑与画面文字去除，让一条视频轻松触达全球观众。
+    </p>
+    <ul>
+      <li>视频翻译：多语种字幕生成与翻译，支持批量处理</li>
+      <li>AI 配音：上千种音色，可按角色自动标注并分配</li>
+      <li>字幕提取与去除：识别硬字幕、擦除画面文字</li>
+      <li>封面生成与素材管理：一站式完成发布前的准备工作</li>
+    </ul>
+
+    <a class="cta" href="https://veoku.com" rel="noopener">前往国内主站 veoku.com</a>
+
+    <nav class="links">
+      <a href="https://veoku.com/agreement?file=policy">隐私政策 Privacy Policy</a>
+      <a href="https://veoku.com/agreement?file=service">服务条款 Terms of Service</a>
+    </nav>
+
+    <footer>© 2026 Veoku. All rights reserved.</footer>
+  </main>
+</body>
+</html>
